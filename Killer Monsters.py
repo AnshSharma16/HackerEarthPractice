@@ -16,7 +16,7 @@ for _ in range(t):
     
     for i in range(n):
         battlefield.append(strength[i])
-        count_and_remove_smaller_than_last(battlefield)
+        count= count_and_remove_smaller_than_last(battlefield)
         remaining.append(count)
     
     print(" ".join(map(str, remaining)))
